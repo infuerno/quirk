@@ -1,5 +1,5 @@
-rm -r /var/www/ghost/content/themes/quirk
-cp -r /opt/pod/apps/quirk/ /var/www/ghost/content/themes/quirk/
+sudo rm -r /var/www/ghost/content/themes/quirk/*
+sudo cp -r /opt/pod/apps/quirk /var/www/ghost/content/themes/quirk
 ls /var/www/ghost/content/themes/quirk
 cd /var/www/ghost
 ghost restart --no-prompt
