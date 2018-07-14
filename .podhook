@@ -1,5 +1,5 @@
 sudo rm -rf /var/www/ghost/content/themes/quirk
-sudo rsync -rv --exclude=.git --exclude=.podhook --exclude=.gitignore /opt/pod/apps/quirk /var/www/ghost/content/themes
+sudo rsync -rv --exclude=.git --exclude-.node_modules --exclude=.podhook --exclude=.gitignore /opt/pod/apps/quirk /var/www/ghost/content/themes
 sudo chown -R ghost:ghost /var/www/ghost/content/themes/quirk
 ls /var/www/ghost/content/themes/quirk
 cd /var/www/ghost
