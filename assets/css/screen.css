@@ -48,7 +48,6 @@ body {
 
 /* ensure no images are larger than 600px */
 img {
-  width: 100%;
   max-width: 600px;
 }
 
@@ -206,7 +205,7 @@ h1 a:hover {
 
 .kg-image-card figcaption,
 .kg-gallery-card figcaption {
-    margin: -1.0em 0 1.5em;
+/*    margin: -1.0em 0 1.5em; */
 }
 
 .kg-gallery-container {
